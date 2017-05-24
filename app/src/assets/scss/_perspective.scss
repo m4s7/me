@@ -5,6 +5,7 @@ main {
   perspective: 700px;
   z-index: 10;
   overflow: hidden;
+  font-smoothing: antialiased;
   .hex-grid {
     transition: transform 1s cubic-bezier(0.430, 0.120, 0.685, 1.650); /* easeOutBack */
     transform: rotateX(35deg);
@@ -23,7 +24,8 @@ main {
         z-index: 200;
         opacity: 1;
         // transform: rotateX(-35deg) translateZ(100px) translatey(-20px) scale(1.1);
-        transform: rotateX(-35deg) translateZ(194px) translatey(37px) scale(1.1);
+        // transform: rotateX(-35deg) translateZ(194px) translatey(37px) scale(1.1);
+        transform: rotateX(-35deg) translateZ(90px) translatey(0px) scale(1.05);
       }
     }
   }
