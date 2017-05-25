@@ -48,9 +48,8 @@ $break-md-max: 1199px;
   .title { font-size: 7vw; }
   aside section, table { font-size: 3.5vw; }
   main {
-    // margin-top: -100px;
-    padding-top: 15%;
-    height: 200%;
+    padding-top: 14vw;
+    height: 254vw;
     .hex-grid {
       transform: rotateX(0);
    
@@ -68,8 +67,8 @@ $break-md-max: 1199px;
   .title { font-size: 5vw; }
   aside section, table { font-size: 2.5vw; }
   main {
-    margin-top: -200px;
-    padding-bottom: 200px;
+    margin-top: -27vw;
+    height: 140vw;
   }
 }
 @media screen and (min-width: $break-md-min) and (max-width: $break-md-max) {
@@ -77,8 +76,8 @@ $break-md-max: 1199px;
   .title { font-size: 2.5vw; }
   aside section, table { font-size: 1.25vw; }
   main {
-    margin-top: -5px;
-    padding-bottom: 500px;
+    margin-top: -3vw;
+    height: 45vw;
   }
   aside article {
     right: 50%;
@@ -91,7 +90,10 @@ $break-md-max: 1199px;
   @include hexagon-grid(6, 4);
   .title { font-size: 2vw; }
   aside section, table { font-size: 1vw; }
-
+  main {
+    margin-top: -3vw;
+    height: 32vw;
+  }
   aside article {
     right: 60%;
   }
@@ -110,6 +112,7 @@ $break-md-max: 1199px;
 
 main {
   transition: all .4s ease;
+  max-width: 1900px
 }
 
 .hex-grid .content {

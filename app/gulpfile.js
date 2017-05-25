@@ -16,8 +16,17 @@ const cachebust = require('gulp-cache-bust');
 const clean = require('gulp-clean');
 
 // Clean out the dist folder
+gulp.task('clean_without_images', () => {
+  return gulp.src(['./dist/assets/css', './dist/*.*', './dist/CNAME'], {
+    read: false,
+    force: true
+  })
+  .pipe(clean());
+});
+
+// Clean out the dist folder
 gulp.task('clean', () => {
-  return gulp.src('./dist/', {
+  return gulp.src('./dist', {
     read: false,
     force: true
   })
@@ -156,17 +165,23 @@ gulp.task("cachebuster", () => {
 
 // Watch tasks
 gulp.task('watch', function () {
-  gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'src/*.html'], ['build'])
+  gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'src/*.html'], ['build_without_images'])
 });
 
-// gulp.task('watch_images', function () {
-//   gulp.watch(['src/assets/image/**/*.*', 'src/assets/image/*.*'], ['image'])
-// });
+gulp.task('watch_images', function () {
+  gulp.watch('src/assets/image/*.*', ['build'])
+});
+
+// Build task
+gulp.task('build_without_images', (callback) => {
+  runSequence('clean_without_images', 'copy', 'sass', 'cachebuster', callback) //, 'critical'
+});
 
 // Build task
 gulp.task('build', (callback) => {
-  runSequence('clean', 'copy', 'sass', 'image', 'cachebuster', callback) //, 'critical'
+  runSequence('clean', 'copy', 'image', 'sass', 'cachebuster', callback) //, 'critical'
 });
 
+
 // Default task
-gulp.task('default', ['watch', 'build']);
+gulp.task('default', ['watch', 'watch_images', 'build']);
