@@ -45,9 +45,8 @@ $break-md-max: 1199px;
 
 @media screen and (min-width: $break-xs-min) and (max-width: $break-xs-max) {
   @include hexagon-grid(2, 1);
-  .content {
-    font-size: 7vw;
-  }
+  .title { font-size: 7vw; }
+  aside section, table { font-size: 3.5vw; }
   main {
     // margin-top: -100px;
     padding-top: 15%;
@@ -66,9 +65,8 @@ $break-md-max: 1199px;
 }
 @media screen and (min-width: $break-sm-min) and (max-width: $break-sm-max) {
   @include hexagon-grid(3, 2);
-  .content {
-    font-size: 5vw;
-  }
+  .title { font-size: 5vw; }
+  aside section, table { font-size: 2.5vw; }
   main {
     margin-top: -200px;
     padding-bottom: 200px;
@@ -76,14 +74,13 @@ $break-md-max: 1199px;
 }
 @media screen and (min-width: $break-md-min) and (max-width: $break-md-max) {
   @include hexagon-grid(5, 3);
-  .content {
-    font-size: 2.5vw;
-  }
+  .title { font-size: 2.5vw; }
+  aside section, table { font-size: 1.25vw; }
   main {
     margin-top: -5px;
     padding-bottom: 500px;
   }
-  section.content article {
+  aside article {
     right: 50%;
   }
   .close-article-btn {
@@ -92,11 +89,10 @@ $break-md-max: 1199px;
 }
 @media screen and (min-width: $break-md-max) {
   @include hexagon-grid(6, 4);
-  .content {
-    font-size: 2vw;
-  }
+  .title { font-size: 2vw; }
+  aside section, table { font-size: 1vw; }
 
-  section.content article {
+  aside article {
     right: 60%;
   }
 
@@ -116,7 +112,7 @@ main {
   transition: all .4s ease;
 }
 
-.content {
+.hex-grid .content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,6 +144,11 @@ article {
   color: #333;
   z-index: 1000;
   transition: right .4s ease;
+  padding: 0 15px;
+  overflow-y: auto;
+  h1 {
+    text-align: center;
+  }
 }
 
 input[type="radio"]:checked + article {
@@ -159,7 +160,7 @@ input[type="radio"]:checked + .close-article-btn {
   display: none;
 }
 
-section.content {
+aside {
   height: 0;
   input {
     position: absolute;

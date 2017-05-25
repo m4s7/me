@@ -14,9 +14,6 @@ const critical = require('critical').stream;
 const autoprefixer = require('gulp-autoprefixer');
 const cachebust = require('gulp-cache-bust');
 const clean = require('gulp-clean');
-// const awspublish = require('gulp-awspublish');
-// const awspublishRouter = require("gulp-awspublish-router");
-// const cloudfront = require('gulp-cloudfront-invalidate-aws-publish');
 
 // Clean out the dist folder
 gulp.task('clean', () => {
@@ -73,7 +70,7 @@ gulp.task('sass', () => {
 
 // Minify images
 gulp.task('image', () => {
-  return gulp.src('src/assets/image/*')
+  return gulp.src('src/assets/image/**')
     .pipe(image())
     .pipe(gulp.dest('dist/assets/image'));
 });
@@ -161,6 +158,10 @@ gulp.task("cachebuster", () => {
 gulp.task('watch', function () {
   gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'src/*.html'], ['build'])
 });
+
+// gulp.task('watch_images', function () {
+//   gulp.watch(['src/assets/image/**/*.*', 'src/assets/image/*.*'], ['image'])
+// });
 
 // Build task
 gulp.task('build', (callback) => {
