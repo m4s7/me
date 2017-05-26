@@ -1,7 +1,7 @@
 $default_orientations: 'lying', 'standing';
 $default_start: 'up';
 $default_types: 'inner', 'outer';
-$default_color: rgb(120,120,120);
+$default_color: #4671D5;
 
 @mixin hexagon-grid-lying($cols, $gap, $color: $default_color) {
   @include hexagon-grid($cols, $gap, 'lying', $default_start, 'inner', $color);

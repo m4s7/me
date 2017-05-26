@@ -1,0 +1,29 @@
+.lang-switch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+input[type="radio"].lang-switch:not(:checked) + .lang-wrapper {
+  .german {
+    display: none;
+  }
+  .english {
+    display: block;
+  }
+}
+
+input[type="radio"].lang-switch:checked + .lang-wrapper {
+  .german {
+    display: block;
+  }
+  .english {
+    display: none;
+  }
+}
+
+.flag {
+  margin-top: 10px;
+  width: 50px;
+}
