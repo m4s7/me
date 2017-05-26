@@ -3,5 +3,4 @@
 - Fotografieren
 - Lesen
 - Musik
-- Motorrad
-  (Pause, da im Moment keine Maschine)
+- Motorrad (im Moment leider keine Maschine)

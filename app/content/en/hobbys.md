@@ -3,5 +3,4 @@
 - Taking photos
 - Reading
 - Music
-- Motorbike
-   (Break, no bike because at the moment)
+- Motorbike (no bike at the moment)

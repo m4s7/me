@@ -17,6 +17,7 @@ const clean = require('gulp-clean');
 const template = require('gulp-md-template');
 const handlebars = require('gulp-compile-handlebars');
 const replace = require('gulp-replace');
+const fs = require('fs');
 
 // Clean out the dist folder
 gulp.task('clean_without_images', () => {
@@ -46,41 +47,8 @@ gulp.task('clean_tmp', () => {
 });
 
 gulp.task('handlebars', function () {
-
-  var templateData = {
-    cells: [
-      {
-        ger: 'Marco Lehmann',
-        eng: 'marco lehmann',
-        file: 'marco_lehmann'
-      },
-      {
-        ger: 'Jobs',
-        eng: 'jobs',
-        file: 'jobs'
-      },
-      {
-        ger: 'Letzte Projekte',
-        eng: 'recent projects',
-        file: 'projects'
-      },
-      {
-        ger: 'Hobbys',
-        eng: 'hobbys',
-        file: 'hobbys'
-      },
-      {
-        ger: 'Kontakt',
-        eng: 'contact',
-        file: 'contact'
-      },
-      {
-        ger: 'Impressum',
-        eng: 'imprint',
-        file: 'imprint'
-      }
-    ]
-  };
+  var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
+  var templateData = { cells: articles };
   var options = {
     ignorePartials: false,
     helpers : {
@@ -234,7 +202,7 @@ gulp.task("cachebuster", () => {
 
 // Watch tasks
 gulp.task('watch', function () {
-  gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'content/**/*.md', 'src/*.html'], ['build_without_images'])
+  gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'content/**/*.md', 'content/*.json', 'src/*.html'], ['build_without_images'])
 });
 
 gulp.task('watch_images', function () {
