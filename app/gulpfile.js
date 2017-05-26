@@ -14,6 +14,9 @@ const critical = require('critical').stream;
 const autoprefixer = require('gulp-autoprefixer');
 const cachebust = require('gulp-cache-bust');
 const clean = require('gulp-clean');
+const template = require('gulp-md-template');
+const handlebars = require('gulp-compile-handlebars');
+const replace = require('gulp-replace');
 
 // Clean out the dist folder
 gulp.task('clean_without_images', () => {
@@ -33,10 +36,76 @@ gulp.task('clean', () => {
   .pipe(clean());
 });
 
+// Clean out the dist folder
+gulp.task('clean_tmp', () => {
+  return gulp.src('./dist/tmp', {
+    read: false,
+    force: true
+  })
+  .pipe(clean());
+});
+
+gulp.task('handlebars', function () {
+
+  var templateData = {
+    cells: [
+      {
+        ger: 'Marco Lehmann',
+        eng: 'marco lehmann',
+        file: 'marco_lehmann'
+      },
+      {
+        ger: 'Jobs',
+        eng: 'jobs',
+        file: 'jobs'
+      },
+      {
+        ger: 'Letzte Projekte',
+        eng: 'recent projects',
+        file: 'projects'
+      },
+      {
+        ger: 'Hobbys',
+        eng: 'hobbys',
+        file: 'hobbys'
+      },
+      {
+        ger: 'Kontakt',
+        eng: 'contact',
+        file: 'contact'
+      },
+      {
+        ger: 'Impressum',
+        eng: 'imprint',
+        file: 'imprint'
+      }
+    ]
+  };
+  var options = {
+    ignorePartials: false,
+    helpers : {
+      capitals : function(str){
+        return str.toUpperCase();
+      }
+    }
+  };
+  return gulp.src('src/*.html')
+    .pipe(handlebars(templateData, options))
+    .pipe(replace('[[', '{{'))
+    .pipe(replace(']]', '}}'))
+    .pipe(gulp.dest('./dist/tmp'));
+});
+
+gulp.task('markdown', function () {
+  return gulp.src('./dist/tmp/*.html')
+    .pipe(template('./content'))
+    .pipe(gulp.dest('./dist'));
+});
+
 // Copy files
 gulp.task('copy', () => {
    return gulp.src([
-     'src/*.html',
+     // 'src/*.html',
      'src/CNAME',
      'src/*.xml',
      'src/*.json',
@@ -165,7 +234,7 @@ gulp.task("cachebuster", () => {
 
 // Watch tasks
 gulp.task('watch', function () {
-  gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'src/*.html'], ['build_without_images'])
+  gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'content/**/*.md', 'src/*.html'], ['build_without_images'])
 });
 
 gulp.task('watch_images', function () {
@@ -174,12 +243,12 @@ gulp.task('watch_images', function () {
 
 // Build task
 gulp.task('build_without_images', (callback) => {
-  runSequence('clean_without_images', 'copy', 'sass', 'cachebuster', callback) //, 'critical'
+  runSequence('clean_without_images', 'handlebars', 'markdown', 'clean_tmp', 'copy', 'sass', 'cachebuster', callback) //, 'critical'
 });
 
 // Build task
 gulp.task('build', (callback) => {
-  runSequence('clean', 'copy', 'image', 'sass', 'cachebuster', callback) //, 'critical'
+  runSequence('clean', 'handlebars', 'markdown', 'clean_tmp', 'copy', 'image', 'sass', 'cachebuster', callback) //, 'critical'
 });
 
 
