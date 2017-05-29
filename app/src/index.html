@@ -22,10 +22,20 @@
 
         {{#each cells}}
         <input class="cell-switch" id="{{this.file}}" type="radio" name="grid-cell"><article>
-          <h1 class="title german">{{this.ger}}</h1>
-          <h1 class="title english">{{this.eng}}</h1>
-          <section class="german">[[de/{{this.file}}]]</section>
-          <section class="english">[[en/{{this.file}}]]</section>
+          <h1 class="title german">{{ger}}</h1>
+          <h1 class="title english">{{eng}}</h1>
+          <section class="german">[[de/{{file}}]]</section>
+          <section class="english">[[en/{{file}}]]</section>
+          {{#unless @first}}
+            {{#withBefore ../cells @index}}
+            <label for="{{file}}" class="page prev"><div></div></label>
+            {{/withBefore}}
+          {{/unless}}
+          {{#unless @last}}
+            {{#withAfter ../cells @index}}
+            <label for="{{this.file}}" class="page next"><div></div></label>
+            {{/withAfter}}
+          {{/unless}}
         </article>
         {{/each}}
 

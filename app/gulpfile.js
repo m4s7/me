@@ -52,8 +52,25 @@ gulp.task('handlebars', function () {
   var options = {
     ignorePartials: false,
     helpers : {
-      capitals : function(str){
-        return str.toUpperCase();
+      withAfter: function(array, idx, options) {
+        // array = array.slice(idx);
+        // var result = '';
+
+        // var len = array.length, i = -1;
+        // while (++i < len) {
+        //   result += options.fn(array[i]);
+        // }
+        return options.fn(array[idx + 1]);
+      },
+      withBefore: function(array, idx, options) {
+        // array = array.slice(idx);
+        // var result = '';
+
+        // var len = array.length, i = -1;
+        // while (++i < len) {
+        //   result += options.fn(array[i]);
+        // }
+        return options.fn(array[idx - 1]);
       }
     }
   };

@@ -10,3 +10,40 @@ article th:first-child {
   width: 100px;
   display: block;
 }
+
+.page {
+  display: block;
+  position: fixed;
+  background-color: #fff;
+  height: 60px;
+  width: 40px;
+  cursor: pointer;
+  top: calc(50% - 30px);
+  border-radius: 5px;
+  opacity: .3;
+  &:hover {
+    opacity: .9;
+  }
+  & > div {
+    top: 9pt;
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid #333;
+    border-right: 5px solid #333;
+    position: absolute;
+  }
+  &.next {
+    right: 1px;
+    & > div {
+      transform: rotate(45deg);
+      right: 8px;
+    }
+  }
+  &.prev {
+    left: 1px;
+    & > div {
+      transform: rotate(225deg);
+      left: 8px;
+    }
+  }
+}

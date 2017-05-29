@@ -91,7 +91,13 @@ a {
   }
   aside article {
     right: 50%;
+
   }
+
+  .page.next {
+   right: calc(50% - 8px); 
+  }
+
   .close-article-btn {
     right: calc(50% + 5px);
   }
@@ -106,6 +112,10 @@ a {
   }
   aside article {
     right: 60%;
+  }
+
+  .page.next {
+   right: calc(60% - 8px); 
   }
 
   .close-article-btn {
