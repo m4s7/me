@@ -22,7 +22,8 @@ article th:first-child {
   border-radius: 5px;
   opacity: .3;
   &:hover {
-    opacity: .9;
+    opacity: .8;
+    background-color: #eee;
   }
   & > div {
     top: 9pt;
@@ -33,17 +34,17 @@ article th:first-child {
     position: absolute;
   }
   &.next {
-    right: 1px;
+    right: 2px;
     & > div {
       transform: rotate(45deg);
-      right: 8px;
+      right: 10px;
     }
   }
   &.prev {
-    left: 1px;
+    left: 2px;
     & > div {
       transform: rotate(225deg);
-      left: 8px;
+      left: 10px;
     }
   }
 }
