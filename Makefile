@@ -10,7 +10,7 @@ docker_console:
 clean:
 	git push origin --delete gh-pages && git branch -d gh-pages
 
-publish:
+public:
 	git subtree push --prefix app/dist origin gh-pages
 
-.PHONY: publish clean docker_console dcon
+.PHONY: public clean docker_console dcon
