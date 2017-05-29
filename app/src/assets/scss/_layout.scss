@@ -31,6 +31,7 @@ article th:first-child {
     height: 30px;
     border-top: 5px solid #333;
     border-right: 5px solid #333;
+    border-radius: 3px;
     position: absolute;
   }
   &.next {
@@ -53,6 +54,7 @@ article {
   img {
     max-width: 19%;
     max-height: 80px;
+    margin-bottom: 10px;
   }
   .image-line {
     display: flex;
