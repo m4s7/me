@@ -56,7 +56,7 @@ a {
 @media screen and (max-width: $break-xs-max) {
   @include hexagon-grid(2, 1);
   .title { font-size: 6.5vw; }
-  aside section, table { font-size: 4vw; }
+  aside section, table { font-size: 14px; }
   main {
     padding-top: 14vw;
     height: 310vw;
@@ -78,7 +78,7 @@ a {
 @media screen and (min-width: $break-sm-min) and (max-width: $break-sm-max) {
   @include hexagon-grid(3, 2);
   .title { font-size: 4.5vw; }
-  aside section, table { font-size: 2.5vw; }
+  aside section, table { font-size: 16px; }
   main {
     margin-top: -38vw;
     height: 170vw;
@@ -90,7 +90,7 @@ a {
 @media screen and (min-width: $break-md-min) and (max-width: $break-md-max) {
   @include hexagon-grid(5, 3);
   .title { font-size: 2.5vw; }
-  aside section, table { font-size: 1.25vw; }
+  aside section, table { font-size: 16px; }
   main {
     margin-top: -6vw;
     height: 60vw;
@@ -114,7 +114,7 @@ a {
 @media screen and (min-width: $break-lg-min) {
   @include hexagon-grid(6, 4);
   .title { font-size: 2vw; }
-  aside section, table { font-size: 1vw; }
+  aside section, table { font-size: 17px; }
   main {
     margin-top: -7vw;
     height: 59vw;
