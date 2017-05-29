@@ -47,3 +47,15 @@ article th:first-child {
     }
   }
 }
+
+article {
+  img {
+    max-width: 19%;
+    max-height: 80px;
+  }
+  .image-line {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
