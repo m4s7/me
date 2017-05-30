@@ -1,30 +1,27 @@
-"Full-Stack" Web-Entwickler aus Hamburg
+
+|||
+|---|---|
+|"Full-Stack" Web-Entwickler aus Hamburg|![Hamburg](assets/image/logos/hamburg.svg "Hamburg")|
 
 
-![Hamburg](assets/image/logos/hamburg.svg "Hamburg")
 
-<table>
-  <tr>
-    <td></td>
-    <td>Marco Lehmann</td>
-  </tr>
-  <tr>
-    <td>Adresse:</td>
-    <td>Neusurenland 160<br>22159 Hamburg</td>
-  </tr>
-  <tr>
-    <td>Geboren:</td>
-    <td>14.08.1981<br>Hamburg</td>
-  </tr>
-</table> 
+|||
+|---|---|
+|__Adresse__|Neusurenland 160|
+||22159 Hamburg|
+|||
+|__Geboren__|14.08.1981|
+||Hamburg|
+|||
+|__Studium__|Wirtschaftsinformatik (FH-Wedel)|
+||Abschluss: Diplom Wirtschaftsinformatiker (FH)|
+|||
+|__Fremdsprachen__|Englisch (gut in Wort und Schrift)|
 
-Englisch (gut in Wort und Schrift) 
 
 Interessen: Maschine Learning, Fintech
 
 
-2003 - 2009   FH-Wedel Studienrichtung Wirtschaftsinformatik
-    Abschluss: Diplom Wirtschaftsinformatiker (FH)
 
 Atom vim sublime
 Website performance

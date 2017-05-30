@@ -18,6 +18,20 @@ const template = require('gulp-md-template');
 const handlebars = require('gulp-compile-handlebars');
 const replace = require('gulp-replace');
 const fs = require('fs');
+const gulpAmpValidator = require('gulp-amphtml-validator');
+
+gulp.task('amphtml:validate', () => {
+  return gulp.src('dist/*.html')
+    // Validate the input and attach the validation result to the "amp" property 
+    // of the file object.  
+    .pipe(gulpAmpValidator.validate())
+    // Print the validation results to the console. 
+    .pipe(gulpAmpValidator.format())
+    // Exit the process with error code (1) if an AMP validation error 
+    // occurred. 
+    .pipe(gulpAmpValidator.failAfterError());
+});
+
 
 // Clean out the dist folder
 gulp.task('clean_without_images', () => {

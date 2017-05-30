@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500');
 @import 'layout';
 @import 'hexagon_grid';
 @import 'perspective';
@@ -10,66 +11,24 @@ $break-md-min: 900px;
 $break-md-max: 1199px;
 $break-lg-min: 1200px;
 
-a {
-  color: #333;
-  text-decoration: none;
-  &:hover {
-    color: #4671D5;
-    text-decoration: none;
-  }
-}
-
-.close-article-btn {
-  display: block;
-  position: fixed;
-  right: 15px;
-  top: 12px;
-  width: 30px;
-  height: 30px;
-  z-index: 1001;
-  opacity: 0.5;
-  transition: right .4s ease;
-  &:hover {
-    opacity: 1;
-  }
-  &:before, &:after {
-    position: absolute;
-    left: 15px;
-    content: ' ';
-    height: 33px;
-    width: 4px;
-    background-color: #333;
-  }
-  &:before {
-    transform: rotate(45deg);
-  }
-  &:after {
-    transform: rotate(-45deg);
-  }
-}
-
 @media screen and (max-width: $break-xs-max) {
   @include hexagon-grid(2, 1);
   .title { font-size: 6.5vw; }
+  .shadows { display: none; }
   aside section, table { font-size: 14px; }
-  .shadows {
-    display: none;
-  }
   main {
     padding-top: 14vw;
     height: 310vw;
     .hex-grid {
       transform: rotateX(0);
-   
       .hex-offset {
         transform: none;
-        &:hover {
-          transform: scale(1.2);
-        }
+        &:hover { transform: scale(1.2); }
       }
     }
   }
 }
+
 @media screen and (min-width: $break-sm-min) and (max-width: $break-sm-max) {
   @include hexagon-grid(3, 2);
   .title { font-size: 4.5vw; }
@@ -77,123 +36,36 @@ a {
   main {
     margin-top: -38vw;
     height: 170vw;
-
   }
 }
+
 @media screen and (min-width: $break-md-min) and (max-width: $break-md-max) {
   @include hexagon-grid(5, 3);
   .title { font-size: 2.5vw; }
-  aside section, table { font-size: 16px; }
+  .page.next { right: calc(50% - 8px); }
+  .close-article-btn { right: calc(50% + 5px); }
+  aside {
+    article { right: 50%; }
+    section, table { font-size: 16px; }
+  }
   main {
     margin-top: -6vw;
     height: 60vw;
   }
-
-  aside article {
-    right: 50%;
-
-  }
-
-  .page.next {
-   right: calc(50% - 8px); 
-  }
-
-  .close-article-btn {
-    right: calc(50% + 5px);
-  }
 }
+
 @media screen and (min-width: $break-lg-min) {
   @include hexagon-grid(6, 4);
   .title { font-size: 2vw; }
-  aside section, table { font-size: 17px; }
+  .page.next { right: calc(60% - 8px); }
+  .close-article-btn { right: calc(60% + 5px); }
+  aside {
+    article { right: 60%; }
+    section, table { font-size: 17px; }
+  }
   main {
     margin-top: -7vw;
     height: 59vw;
   }
-  aside article {
-    right: 60%;
-  }
-
-  .page.next {
-   right: calc(60% - 8px); 
-  }
-
-  .close-article-btn {
-    right: calc(60% + 5px);
-  }
 }
 
-.hex-cell {
-  color: #fff;
-  a {
-    color: #fff;
-  }
-}
-
-main {
-  transition: all .4s ease;
-  // max-width: 1900px;
-  min-height: 100%;
-}
-
-.hex-grid .content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  // text-align: center;
-  width: 100%;
-  height: 100%;
-  &.resp-image img {
-    width: 100%;
-  }
-
-  .title, img {
-    user-select: none;
-    // display: block;
-  }
-}
-
-label {
-  cursor: pointer;
-}
-
-article {
-  display: none;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  bottom: 10px;
-  right: 10px;
-  background-color: #fff;
-  color: #333;
-  z-index: 1000;
-  transition: right .4s ease;
-  padding: 0 15px;
-  overflow-y: auto;
-  h1 {
-    text-align: center;
-  }
-  section {
-    padding-bottom: 50px;
-  }
-}
-
-input[type="radio"]:checked + article {
-  display: block;
-  opacity: .9;
-}
-
-input[type="radio"]:checked + .close-article-btn {
-  display: none;
-}
-
-aside {
-  height: 0;
-  input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-}
