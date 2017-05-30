@@ -7,7 +7,7 @@ Neusurenland 160<br>
 ### Kontakt: 
 |   |   |
 |---|---|
-|Telefon:|+49.179.5201820|
+|Telefon:|[+49.179.5201820](tel:+491795201820)|
 |Fax:|+49.40.60941595.9|
 |eMail:|[lehmann@locity.de](mailto:lehmann@locity.de)|
 
