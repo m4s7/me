@@ -30,14 +30,21 @@ main {
 label { cursor: pointer; }
 
 input[type="radio"]:checked + article {
-  display: block;
-  opacity: .9;
+  left: 10px;
+  right: 10px;
+  .page {
+    opacity: .3;
+    pointer-events: auto;
+    &:hover {
+      opacity: .8;
+      background-color: #eee;
+    }
+  }
 }
 
 input[type="radio"]:checked + .close-article-btn { display: none; }
 
 .close-article-btn {
-  display: block;
   position: fixed;
   right: 15px;
   top: 12px;
@@ -72,16 +79,16 @@ aside {
 }
 
 article {
-  display: none;
   position: fixed;
+  opacity: .9;
   top: 10px;
-  left: 10px;
+  left: calc(-120% + 20px);
   bottom: 10px;
-  right: 10px;
+  right: 120%;
   background-color: #fff;
   color: #333;
   z-index: 1000;
-  transition: right .4s ease;
+  transition: right .5s ease-in-out, left .5s ease-in-out;;
   padding: 0 15px;
   overflow-y: auto;
   h1 { text-align: center; }
@@ -109,45 +116,41 @@ article {
     text-decoration: none;
     &:hover { color: #4671D5; }
   }
+  .page {
+    // display: none;
+    pointer-events: none;
+    position: fixed;
+    background-color: #fff;
+    height: 60px;
+    width: 40px;
+    cursor: pointer;
+    top: calc(50% - 30px);
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity .5s ease;
+    & > div {
+      top: 9pt;
+      width: 30px;
+      height: 30px;
+      border-top: 5px solid #333;
+      border-right: 5px solid #333;
+      border-radius: 3px;
+      position: absolute;
+    }
+    &.next {
+      right: 2px;
+      & > div {
+        transform: rotate(45deg);
+        right: 12px;
+      }
+    }
+    &.prev {
+      left: 2px;
+      & > div {
+        transform: rotate(225deg);
+        left: 12px;
+      }
+    }
+}
 }
 
-// Page Navigation
-
-.page {
-  display: block;
-  position: fixed;
-  background-color: #fff;
-  height: 60px;
-  width: 40px;
-  cursor: pointer;
-  top: calc(50% - 30px);
-  border-radius: 5px;
-  opacity: .3;
-  &:hover {
-    opacity: .8;
-    background-color: #eee;
-  }
-  & > div {
-    top: 9pt;
-    width: 30px;
-    height: 30px;
-    border-top: 5px solid #333;
-    border-right: 5px solid #333;
-    border-radius: 3px;
-    position: absolute;
-  }
-  &.next {
-    right: 2px;
-    & > div {
-      transform: rotate(45deg);
-      right: 10px;
-    }
-  }
-  &.prev {
-    left: 2px;
-    & > div {
-      transform: rotate(225deg);
-      left: 10px;
-    }
-  }
-}

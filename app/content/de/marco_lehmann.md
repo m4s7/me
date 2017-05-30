@@ -3,8 +3,6 @@
 |---|---|
 |"Full-Stack" Web-Entwickler aus Hamburg|![Hamburg](assets/image/logos/hamburg.svg "Hamburg")|
 
-
-
 |||
 |---|---|
 |__Adresse__|Neusurenland 160|

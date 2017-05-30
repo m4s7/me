@@ -42,10 +42,11 @@ $break-lg-min: 1200px;
 @media screen and (min-width: $break-md-min) and (max-width: $break-md-max) {
   @include hexagon-grid(5, 3);
   .title { font-size: 2.5vw; }
-  .page.next { right: calc(50% - 8px); }
-  .close-article-btn { right: calc(50% + 5px); }
   aside {
-    article { right: 50%; }
+    .close-article-btn { right: calc(50% + 5px); }
+    article .page.next { right: calc(50% - 8px); }
+    article { left: calc(-70% + 10px); }
+    input[type="radio"]:checked + article { right: 50%; }
     section, table { font-size: 16px; }
   }
   main {
@@ -57,10 +58,11 @@ $break-lg-min: 1200px;
 @media screen and (min-width: $break-lg-min) {
   @include hexagon-grid(6, 4);
   .title { font-size: 2vw; }
-  .page.next { right: calc(60% - 8px); }
-  .close-article-btn { right: calc(60% + 5px); }
   aside {
-    article { right: 60%; }
+    .close-article-btn { right: calc(60% + 5px); }
+    article .page.next { right: calc(60% - 8px); }
+    article { left: calc(-60% + 10px); }
+    input[type="radio"]:checked + article { right: 60%; }
     section, table { font-size: 17px; }
   }
   main {
