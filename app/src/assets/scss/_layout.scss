@@ -54,11 +54,13 @@ article {
   img {
     max-width: 19%;
     max-height: 80px;
-    margin-bottom: 10px;
   }
   .image-line {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    img {
+      margin: 5px;
+    }
   }
 }

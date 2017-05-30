@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="354px" height="366px" viewBox="0 0 354 366" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Cordova-logo-by-gengns</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="89.9530797%" y1="97.0016%" x2="0.0721426404%" y2="-1.1449444%" id="linearGradient-1">
+            <stop stop-color="#ACACAC" offset="0%"></stop>
+            <stop stop-color="#E9E9E9" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="51.7415283%" cy="97.2660208%" fx="51.7415283%" fy="97.2660208%" r="49.2555143%" gradientTransform="translate(0.517415,0.972660),scale(1.000000,0.171974),translate(-0.517415,-0.972660)" id="radialGradient-2">
+            <stop stop-color="#25303B" offset="0%"></stop>
+            <stop stop-color="#25303B" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50.7026164%" y1="96.5140607%" x2="3.21279221%" y2="0.211197013%" id="linearGradient-3">
+            <stop stop-color="#24303A" offset="0%"></stop>
+            <stop stop-color="#394958" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.0451478%" y1="96.5066783%" x2="96.2919908%" y2="-0.000131359589%" id="linearGradient-4">
+            <stop stop-color="#24303A" offset="0%"></stop>
+            <stop stop-color="#394958" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="84.5907031%" y1="35.5779999%" x2="10.5520815%" y2="55.8816387%" id="linearGradient-5">
+            <stop stop-color="#E5E5E5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="42.1001891%" y1="0%" x2="42.1001891%" y2="100.000008%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.53170735" offset="50%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9999966%" y1="100%" x2="49.9999966%" y2="0%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cordova-logo-by-gengns" transform="translate(0.000000, 1.000000)">
+            <polygon id="path5096" fill-opacity="0.56862745" fill="#000000" points="313.854036 364.106772 251.296919 275.455444 102.592772 275.455444 40.3420326 364.094664"></polygon>
+            <g id="g5122">
+                <polygon id="path4824" fill="#7F8082" points="287.15271 288.75084 264.04724 337.01842 248.13734 276.91434"></polygon>
+                <polygon id="path4822" fill="#7F8082" points="74.40662 288.75084 90.13709 337.01842 106.04699 276.91434"></polygon>
+                <polygon id="path3439" stroke="#D6D6D6" fill="url(#linearGradient-1)" stroke-linejoin="round" points="0.984742 129.19418 0.973022 129.21178 33.764036 337.01842 90.137088 337.01842 85.531618 288.75084 114.455448 288.75084 118.139038 337.01842 236.228878 337.01842 239.912478 288.75084 268.652708 288.75084 264.047238 337.01842 320.787478 337.01842 353.211308 129.21178 353.199608 129.19418 0.98476 129.19418"></polygon>
+                <polygon id="path4771" fill="url(#radialGradient-2)" points="81.55849 256.93931 98.51441 193.41113 97.32218 65.10068 65.52318 129.19418"></polygon>
+                <polygon id="path4776" fill="#293441" points="203.328 52.53179 273.59803 52.53179 272.15515 207.84614 197.90963 207.84614"></polygon>
+                <polygon id="path4778" fill="#293441" points="152.49966 52.62857 84.05496 52.67077 85.67662 207.29228 155.36081 207.29228"></polygon>
+                <polygon id="path4735" fill="#2D3948" points="91.13904 193.41098 81.55896 256.94028 273.18396 256.94028 261.79334 193.8641"></polygon>
+                <polygon id="path4761" fill="url(#linearGradient-3)" points="273.18449 256.9405 256.54357 193.86329 257.16887 64.69441 289.36418 129.1905"></polygon>
+                <polygon id="path4794" fill="url(#linearGradient-4)" points="81.7047 256.9405 98.51441 193.41113 97.32218 65.10068 65.52501 129.1905"></polygon>
+                <polygon id="path4739" fill="#2D3B48" points="145.31573 88.42759 151.64295 223.30772 200.92816 223.30772 208.86695 88.42759"></polygon>
+                <polygon id="path4810" stroke="#D6D6D6" fill="url(#linearGradient-5)" stroke-linejoin="round" points="353.19961 129.19418 272.65076 0.350428 81.15076 0.350428 0.98476 129.19418 65.52548 129.19418 97.15076 65.35043 149.15076 65.35043 145.31573 88.42759 208.86695 88.42759 205.50819 64.65113 257.30376 64.65113 289.36371 129.19418"></polygon>
+                <polygon id="path4826" fill="#363F49" opacity="0.449" points="205.50819 64.65113 257.74339 64.69443 289.36371 129.19418 273.18396 256.94028 151.64295 256.9403 214.46529 129.19418"></polygon>
+                <polygon id="path4832" fill="url(#linearGradient-6)" opacity="0.3" points="214.46529 129.19418 151.64295 256.9403 81.55849 256.93931 65.52318 129.19418"></polygon>
+                <polygon id="path4834" fill="url(#linearGradient-7)" opacity="0.2" points="97.15076 65.35043 149.15076 65.35043 145.31573 88.42759 208.86695 88.42759 214.46529 129.19418 65.52318 129.19418"></polygon>
+                <g id="g4749" transform="translate(119.150758, 150.393398)" fill-rule="nonzero">
+                    <g id="g4722" transform="translate(101.198028, 0.712804)">
+                        <ellipse id="ellipse3463" fill="#05F0FF" opacity="0.8" cx="9.00637266" cy="32.2015211" rx="8.94577244" ry="31.716953"></ellipse>
+                        <ellipse id="ellipse4390" stroke="#06EFFE" stroke-width="1.00172712" fill="#FFFFFF" opacity="0.9" stroke-linecap="round" cx="9.00640213" cy="32.6704365" rx="6.95312617" ry="28.0812347"></ellipse>
+                        <ellipse id="ellipse4720" stroke="#06EFFE" stroke-width="1.00351193" fill="#FEFFFF" opacity="0.9" stroke-linecap="round" cx="9.00640213" cy="32.7485853" rx="6.95312617" ry="25.9681949"></ellipse>
+                    </g>
+                    <g id="g4727" transform="translate(0.005419, 5.188934)">
+                        <ellipse id="ellipse4729" fill="#05F0FF" opacity="0.8" cx="9.00637266" cy="32.2015211" rx="8.94577244" ry="31.716953"></ellipse>
+                        <ellipse id="ellipse4731" stroke="#06EFFE" stroke-width="1.00172712" fill="#FFFFFF" opacity="0.9" stroke-linecap="round" cx="9.00640213" cy="32.6704365" rx="6.95312617" ry="28.0812347"></ellipse>
+                        <ellipse id="ellipse4733" stroke="#06EFFE" stroke-width="1.00351193" fill="#FEFFFF" opacity="0.9" stroke-linecap="round" cx="9.00640213" cy="32.7485853" rx="6.95312617" ry="25.9681949"></ellipse>
+                    </g>
+                </g>
+                <polygon id="path4856" stroke="#D6D6D6" stroke-linejoin="round" points="97.15076 65.35043 149.15076 65.35043 145.31573 88.42759 208.86695 88.42759 205.50819 64.65113 257.74339 64.69443 289.36371 129.19418 273.18449 256.9405 81.55849 256.9395 65.52318 129.19437"></polygon>
+                <path d="M288.83631,129.19418 L65.36697,129.19418" id="path4858" stroke="#FFFFFF" fill="#FFFFFF" opacity="0.34299999"></path>
+            </g>
+        </g>
+    </g>
+</svg>
