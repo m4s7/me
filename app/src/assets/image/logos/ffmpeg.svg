@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>ffmpeg</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="ffmpeg" transform="translate(5.000000, 5.000000)" stroke-width="9" stroke="#008700">
-            <polyline id="Shape" points="0 0 20 0 0 20 0 40 40 0 60 0 0 60 20 60 60 20 60 40 40 60 60 60"></polyline>
-        </g>
-    </g>
-</svg>
+<svg width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg"><title>ffmpeg</title><path d="M5 5h20L5 25v20L45 5h20L5 65h20l40-40v20L45 65h20" stroke-width="9" stroke="#008700" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
