@@ -14,6 +14,7 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 <p class="image-line">
 ![Ruby](assets/image/logos/ruby.svg "Ruby")
 ![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
+![Haml](assets/image/logos/haml.svg "Haml")
 ![jQuery](assets/image/logos/jquery.svg "jQuery")
 ![Bootstrap 4](assets/image/logos/bootstrap.svg "Bootstrap 4")
 ![Sass](assets/image/logos/sass.svg "Sass")
@@ -21,6 +22,104 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 ![Sipgate](assets/image/logos/sipgate.svg "Sipgate")
 ![Google Maps](assets/image/logos/google_maps.svg "Google Maps")
 ![Heroku](assets/image/logos/heroku.svg "Heroku")
+</p>
+
+---
+
+### Life Coaching Community (Unterm Schirm der Wacku GmbH)
+Zum Projekt Start Konzeption sowie Architektur und im weiteren Verlauf das Projektmanagement (2016-2017)
+
+|   |   |
+|---|---|
+|__Backend__|Ruby, GarphQL|
+||Event Sourcing System|
+|__Frontend__| JavaScript: TypeScript, Redux|
+|| CSS: Custom|
+|__Datenbank__|Redis, PostgreSQL, Elasticsearch|
+|__Hosting__|AWS, Docker Cloud|
+|__Dienste__|Contentful, Google Maps API, Mailchimp|
+
+<p class="image-line">
+![Ruby](assets/image/logos/ruby.svg "Ruby")
+![Angular 4](assets/image/logos/angular.svg "Angular 4")
+![Redux](assets/image/logos/redux.svg "Redux")
+![WebPack](assets/image/logos/webpack.svg "WebPack")
+![TypeScript](assets/image/logos/typescript.svg "TypeScript")
+![Sass](assets/image/logos/sass.svg "Sass")
+![Elasticsearch](assets/image/logos/elastic.svg "Elasticsearch")
+![PostgreSQL](assets/image/logos/postgresql.svg "PostgreSQL")
+![Redis](assets/image/logos/redis.svg "Redis")
+![Google Maps](assets/image/logos/google_maps.svg "Google Maps")
+![Contentful](assets/image/logos/contentful.svg "Contentful")
+![Docker](assets/image/logos/docker.svg "Docker")
+</p>
+
+---
+
+### XING
+
+#### Frontent Architektur: Entwicklung eines Responsive-Grids für die XING Plattform
+Entwicklung eines Responsive-Grids für die XING Plattform (2015 Mär - Dez)
+
+|   |   |
+|---|---|
+|__Backend__|Ruby, Rails|
+|__Frontend__|JavaScript: Custom|
+|| CSS: Custom|
+|__Testing__|Galen Framework (Responsive Tests)|
+
+<p class="image-line">
+![Ruby](assets/image/logos/ruby.svg "Ruby")
+![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
+![JavaScript](assets/image/logos/javascript.svg "JavaScript")
+![Sass](assets/image/logos/sass.svg "Sass")
+![Galen Framework](assets/image/logos/galen.svg "Galen Framework")
+</p>
+
+---
+
+### XING
+
+#### ProJob Team: Frontend Unterstützung
+Frontend Unterstützung (2015 Jan - Mär)
+
+|   |   |
+|---|---|
+|__Backend__|Ruby, Rails|
+|__Frontend__|JavaScript: Custom|
+||CSS: Custom|
+|__Testing__|QUnit|
+
+<p class="image-line">
+![Ruby](assets/image/logos/ruby.svg "Ruby")
+![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
+![JavaScript](assets/image/logos/javascript.svg "JavaScript")
+![Sass](assets/image/logos/sass.svg "Sass")
+![QUnit](assets/image/logos/qunit.svg "QUnit")
+</p>
+
+---
+
+### XING
+
+#### Data Science: Entwicklung FutureMe
+Entwicklung der Angular App FutureMe (2014 Apr - 2015)
+
+|   |   |
+|---|---|
+|__Backend__|Scala|
+|__Frontend__|JavaScript: Angular|
+|| CSS: Custom|
+|__Mobile App__|Cordova|
+
+<p class="image-line">
+![Angular](assets/image/logos/angular.svg "Angular")
+![Gulp](assets/image/logos/gulp.svg "Gulp")
+![Grunt](assets/image/logos/grunt.svg "Grunt")
+![jQuery](assets/image/logos/jquery.svg "jQuery")
+![Sass](assets/image/logos/sass.svg "Sass")
+![Cordova](assets/image/logos/cordova.svg "Cordova")
+![Google Maps](assets/image/logos/google_maps.svg "Google Maps")
 </p>
 
 ---
@@ -40,6 +139,7 @@ Technische Konzeption und Entwicklung von Frontend und CMS (2013-2014)
 <p class="image-line">
 ![Ruby](assets/image/logos/ruby.svg "Ruby")
 ![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
+![Haml](assets/image/logos/haml.svg "Haml")
 ![jQuery](assets/image/logos/jquery.svg "jQuery")
 ![Sass](assets/image/logos/sass.svg "Sass")
 ![PostgreSQL](assets/image/logos/postgresql.svg "PostgreSQL")
@@ -90,7 +190,9 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 <p class="image-line">
 ![Ruby](assets/image/logos/ruby.svg "Ruby")
 ![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
+![Haml](assets/image/logos/haml.svg "Haml")
 ![jQuery](assets/image/logos/jquery.svg "jQuery")
+![CoffeeScript](assets/image/logos/coffeescript.svg "CoffeeScript")
 ![Bootstrap](assets/image/logos/bootstrap.svg "Bootstrap")
 ![less](assets/image/logos/less.svg "less")
 ![MySql](assets/image/logos/mysql.svg "MySql")

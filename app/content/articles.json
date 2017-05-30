@@ -20,7 +20,7 @@
     "file": "frontend"
   },
   {
-    "ger": "Projetkt Management",
+    "ger": "Projekt Management",
     "eng": "project management",
     "file": "project_management"
   },
@@ -30,14 +30,14 @@
     "file": "dev_ops"
   },
   {
-    "ger": "Letzte Projekte",
-    "eng": "recent projects",
-    "file": "projects"
-  },
-  {
     "ger": "Jobs",
     "eng": "jobs",
     "file": "jobs"
+  },
+  {
+    "ger": "Neuste Projekte",
+    "eng": "recent projects",
+    "file": "projects"
   },
   {
     "ger": "Hobbys",

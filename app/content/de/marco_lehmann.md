@@ -18,10 +18,13 @@
   </tr>
 </table> 
 
-
+Englisch (gut in Wort und Schrift) 
 
 Interessen: Maschine Learning, Fintech
 
+
+2003 - 2009   FH-Wedel Studienrichtung Wirtschaftsinformatik
+    Abschluss: Diplom Wirtschaftsinformatiker (FH)
 
 Atom vim sublime
 Website performance
