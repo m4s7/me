@@ -17,7 +17,7 @@
 |__Fremdsprachen__|Englisch (gut in Wort und Schrift)|
 
 
-Interessen: Maschine Learning, Fintech
+Interessen: Maschine Learning, FinTech
 
 
 
@@ -31,8 +31,8 @@ Website performance
 ![Sublime](assets/image/logos/sublime.svg "Sublime")
 ![Neovim](assets/image/logos/neovim.svg "Neovim")
 ![Balsamiq](assets/image/logos/balsamiq.svg "Balsamiq")
-![Gimp](assets/image/logos/gimp.svg "Gimp")
 ![Sketch](assets/image/logos/sketch.svg "Sketch")
+![Gimp](assets/image/logos/gimp.svg "Gimp")
 ![Git](assets/image/logos/git.svg "Git")
 ![GitHub](assets/image/logos/github.svg "GitHub")
 </p>

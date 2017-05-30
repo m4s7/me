@@ -8,6 +8,10 @@
 ||Frontend Unterstützung des ProJob Teams (2015 Jan - Mär)|
 ||Entwicklung FutureMe (2014 Apr - 2015)|
 |   |   |
+|2015-heute|BOOST.coach StartUp|
+|   |   |
+|2014-2015|Croffee StartUp (Gefördert durch SpeedUP!Europe)|
+|   |   |
 |2013|Gründung Locity UG - Entwicklungs- und Beteiligungsgesellschaft|
 |   |   |
 |2012-heute|Freelancer - Ruby  & Frontend Projekte|
