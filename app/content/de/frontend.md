@@ -12,13 +12,15 @@ cordova, webgl, threejs, es6, css3, html5
 ![WebPack](assets/image/logos/webpack.svg "WebPack")
 ![Gulp](assets/image/logos/gulp.svg "Gulp")
 ![Grunt](assets/image/logos/grunt.svg "Grunt")
+![Handlebars](assets/image/logos/handlebars.svg "Handlebars")
 ![JavaScript](assets/image/logos/javascript.svg "JavaScript")
 ![TypeScript](assets/image/logos/typescript.svg "TypeScript")
 ![jQuery](assets/image/logos/jquery.svg "jQuery")
 ![Sass](assets/image/logos/sass.svg "Sass")
 ![less](assets/image/logos/less.svg "less")
-![Bootstrap 4](assets/image/logos/bootstrap.svg "ootstrap 4")
-![Galen Framework](assets/image/logos/galen.png "alen Framework")
+![Bootstrap 4](assets/image/logos/bootstrap.svg "Bootstrap 4")
+![Ionic](assets/image/logos/ionic.svg "Ionic")
+![Galen Framework](assets/image/logos/galen.svg "Galen Framework")
 
 
 

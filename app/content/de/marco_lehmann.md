@@ -32,7 +32,9 @@ Website performance
 ![Atom](assets/image/logos/atom.svg "Atom")
 ![Sublime](assets/image/logos/sublime.svg "Sublime")
 ![Neovim](assets/image/logos/neovim.svg "Neovim")
-![Balsamiq](assets/image/logos/balsamiq.png "Balsamiq")
+![Balsamiq](assets/image/logos/balsamiq.svg "Balsamiq")
 ![Gimp](assets/image/logos/gimp.svg "Gimp")
 ![Sketch](assets/image/logos/sketch.svg "Sketch")
+![Git](assets/image/logos/git.svg "Git")
+![GitHub](assets/image/logos/github.svg "GitHub")
 </p>

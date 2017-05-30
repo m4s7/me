@@ -11,4 +11,5 @@ nodejs, ffmpeg, Event source
 ![Node](assets/image/logos/node.svg "Node")
 ![FFMpeg](assets/image/logos/ffmpeg.svg "FFMpeg")
 ![Contentful](assets/image/logos/contentful.svg "Contentful")
+![Markdown](assets/image/logos/markdown.svg "Markdown")
 </p>
