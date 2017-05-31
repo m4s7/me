@@ -19,6 +19,7 @@ const handlebars = require('gulp-compile-handlebars');
 const replace = require('gulp-replace');
 const fs = require('fs');
 const gulpAmpValidator = require('gulp-amphtml-validator');
+var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
 
 gulp.task('amphtml:validate', () => {
   return gulp.src('dist/*.html')
@@ -31,7 +32,6 @@ gulp.task('amphtml:validate', () => {
     // occurred. 
     .pipe(gulpAmpValidator.failAfterError());
 });
-
 
 // Clean out the dist folder
 gulp.task('clean_without_images', () => {
@@ -61,29 +61,14 @@ gulp.task('clean_tmp', () => {
 });
 
 gulp.task('handlebars', function () {
-  var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
   var templateData = { cells: articles };
   var options = {
     ignorePartials: false,
     helpers : {
       withAfter: function(array, idx, options) {
-        // array = array.slice(idx);
-        // var result = '';
-
-        // var len = array.length, i = -1;
-        // while (++i < len) {
-        //   result += options.fn(array[i]);
-        // }
         return options.fn(array[idx + 1]);
       },
       withBefore: function(array, idx, options) {
-        // array = array.slice(idx);
-        // var result = '';
-
-        // var len = array.length, i = -1;
-        // while (++i < len) {
-        //   result += options.fn(array[i]);
-        // }
         return options.fn(array[idx - 1]);
       }
     }
@@ -129,14 +114,11 @@ gulp.task('sass', () => {
   return gulp
     .src('src/assets/scss/**/*.scss')
     // .pipe(sourcemaps.init())
+    .pipe(replace('@@cell_count@@', articles.length + 1))
     .pipe(sass({
       errLogToConsole: true,
       outputStyle: 'compressed',
-      includePaths: [
-        // 'node_modules/foundation-sites/_vendor',
-        // 'node_modules/foundation-sites/scss',
-        // 'node_modules/animate-sass'
-      ]
+      includePaths: []
     }))
     .on('error', sass.logError)
     .pipe(autoprefixer(autoprefixerOptions))
@@ -179,58 +161,6 @@ gulp.task("cachebuster", () => {
     .pipe(gulp.dest('dist'));
 });
 
-// Publish files to S3
-// gulp.task("publish", () => {
-
-//   // AWS configuration
-//   var publisher = awspublish.create(require('./aws-credentials.json'));
-
-//   gulp.src("dist/**/*", { cwd: "." })
-//     .pipe(awspublishRouter({
-//       cache: {
-//         // cache for 5 minutes by default
-//         cacheTime: 300
-//       },
-//       routes: {
-//         "^assets/(?:.+)\\.(?:js|css|svg|ttf)$": {
-//           // don't modify original key. this is the default
-//           key: "$&",
-//           // use gzip for assets that benefit from it
-//           gzip: true,
-//           // cache static assets for 20 years
-//           cacheTime: 630720000
-//         },
-//         "^assets/.+$": {
-//           // cache static assets for 20 years
-//           cacheTime: 630720000
-//         },
-//         // pass-through for anything that wasn't matched by routes above, to be uploaded with default options
-//         "^.+$": "$&"
-//       }
-//     })
-//   )
-//   .pipe(publisher.publish())
-//   .pipe(publisher.sync())
-//   .pipe(awspublish.reporter())
-// });
-
-// gulp.task('invalidate', () => {
-//   // AWS configuration
-//   var publisher = awspublish.create(require('./aws-credentials.json'));
-
-//   return gulp.src('dist/**/*')
-//     .pipe(publisher.publish({
-//       'Cache-Control': 'max-age=315360000, no-transform, public'
-//     }))
-//     .pipe(cloudfront({
-//       distribution: publisher.config.cloudfront.distribution,
-//       wait: true,
-//       indexRootPath: true
-//     }))
-//     .pipe(publisher.cache())
-//     .pipe(awspublish.reporter());
-// });
-
 // Watch tasks
 gulp.task('watch', function () {
   gulp.watch(['src/assets/scss/**/*.scss', 'src/**/*.html', 'content/**/*.md', 'content/*.json', 'src/*.html'], ['build_without_images'])
@@ -249,7 +179,6 @@ gulp.task('build_without_images', (callback) => {
 gulp.task('build', (callback) => {
   runSequence('clean', 'handlebars', 'markdown', 'clean_tmp', 'copy', 'image', 'sass', 'cachebuster', callback) //, 'critical'
 });
-
 
 // Default task
 gulp.task('default', ['watch', 'watch_images', 'build']);
