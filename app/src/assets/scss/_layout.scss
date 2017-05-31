@@ -98,7 +98,7 @@ article {
     width: 100px;
     display: block;
   }
-  img {
+  img, i {
     max-width: 30px;
     max-height: 40px;
   }
@@ -106,7 +106,7 @@ article {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    img {
+    img, i {
       margin: 5px;
       max-width: 12%;
       max-height: 50px;

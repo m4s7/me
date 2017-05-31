@@ -4,7 +4,7 @@
 |2016-2017|Entwicklung einer Life Coaching Community für die Wacku GmbH: Konzeption, Architektur und Projektmanagement|
 |   |   |
 |2014-2016|Freelancer bei XING|
-||Frontent Architekten – Entwicklung eines Responsive-Grids für die XING Plattform (2015 Mär - Dez)|
+||Frontent Architekten – Konzeption & Entwicklung eines Responsive-Grids für die XING Plattform (2015 Mär - Dez)|
 ||Frontend Unterstützung des ProJob Teams (2015 Jan - Mär)|
 ||Entwicklung FutureMe (2014 Apr - 2015)|
 |   |   |

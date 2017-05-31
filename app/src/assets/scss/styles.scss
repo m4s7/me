@@ -3,6 +3,7 @@
 @import 'hexagon_grid';
 @import 'perspective';
 @import 'lang_switch';
+@import 'sprite';
 
 
 $cells: @@cell_count@@; // Is inserted by gulp

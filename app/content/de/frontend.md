@@ -7,29 +7,25 @@ cordova, webgl, threejs, es6, css3, html5
 ---
 
 <p class="image-line">
-![Angular 4](assets/image/logos/angular.svg "Angular 4")
-![React](assets/image/logos/react.svg "React")
-![WebPack](assets/image/logos/webpack.svg "WebPack")
-![Gulp](assets/image/logos/gulp.svg "Gulp")
-![Grunt](assets/image/logos/grunt.svg "Grunt")
-![Handlebars](assets/image/logos/handlebars.svg "Handlebars")
-![JavaScript](assets/image/logos/javascript.svg "JavaScript")
-![TypeScript](assets/image/logos/typescript.svg "TypeScript")
-![jQuery](assets/image/logos/jquery.svg "jQuery")
-![Sass](assets/image/logos/sass.svg "Sass")
-![less](assets/image/logos/less.svg "less")
-![Bootstrap 4](assets/image/logos/bootstrap.svg "Bootstrap 4")
-![Ionic](assets/image/logos/ionic.svg "Ionic")
-![Galen Framework](assets/image/logos/galen.svg "Galen Framework")
-
-
-
-![Cordova](assets/image/logos/cordova.svg "Cordova")
-![CSS3](assets/image/logos/css3.svg "CSS3")
-![HTML5](assets/image/logos/html5.svg "HTML5")
-![ES6](assets/image/logos/es6.svg "ES6")
-![Redux](assets/image/logos/redux.svg "Redux")
-![WebGL](assets/image/logos/webgl.svg "WebGL")
-![WebSocket](assets/image/logos/websocket.svg "WebSocket")
-
+<i class="icon angular"></i>
+<i class="icon react"></i>
+<i class="icon webpack"></i>
+<i class="icon gulp"></i>
+<i class="icon grunt"></i>
+<i class="icon handlebars"></i>
+<i class="icon javascript"></i>
+<i class="icon typescript"></i>
+<i class="icon jquery"></i>
+<i class="icon sass"></i>
+<i class="icon less"></i>
+<i class="icon bootstrap"></i>
+<i class="icon ionic"></i>
+<i class="icon galen"></i>
+<i class="icon cordova"></i>
+<i class="icon css3"></i>
+<i class="icon html5"></i>
+<i class="icon es6"></i>
+<i class="icon redux"></i>
+<i class="icon webgl"></i>
+<i class="icon websocket"></i>
 </p>

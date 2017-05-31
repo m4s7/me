@@ -1,7 +1,8 @@
 
 |||
 |---|---|
-|"Full-Stack" Web-Entwickler aus Hamburg|![Hamburg](assets/image/logos/hamburg.svg "Hamburg")|
+|"Full-Stack" Web-Entwickler aus Hamburg|<i class="icon hamburg"></i>|
+
 
 |||
 |---|---|
@@ -27,12 +28,12 @@ Website performance
 
 
 <p class="image-line">
-![Atom](assets/image/logos/atom.svg "Atom")
-![Sublime](assets/image/logos/sublime.svg "Sublime")
-![Neovim](assets/image/logos/neovim.svg "Neovim")
-![Balsamiq](assets/image/logos/balsamiq.svg "Balsamiq")
-![Sketch](assets/image/logos/sketch.svg "Sketch")
-![Gimp](assets/image/logos/gimp.svg "Gimp")
-![Git](assets/image/logos/git.svg "Git")
-![GitHub](assets/image/logos/github.svg "GitHub")
+<i class="icon atom"></i>
+<i class="icon sublime"></i>
+<i class="icon neovim"></i>
+<i class="icon balsamiq"></i>
+<i class="icon sketch"></i>
+<i class="icon gimp"></i>
+<i class="icon git"></i>
+<i class="icon github"></i>
 </p>

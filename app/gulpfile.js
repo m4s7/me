@@ -19,6 +19,21 @@ const handlebars = require('gulp-compile-handlebars');
 const replace = require('gulp-replace');
 const fs = require('fs');
 const gulpAmpValidator = require('gulp-amphtml-validator');
+const svgSprite = require("gulp-svg-sprites");
+
+gulp.task('svg_sprite', function () {
+  return gulp.src(['./src/assets/image/lang/*.svg', './src/assets/image/logos/*.svg'])
+    .pipe(svgSprite({
+      cssFile: "scss/_sprite.scss",
+      baseSize: 16,
+      preview: false,
+      templates: { scss: true },
+      svg: {
+          sprite: "image/sprite.svg"
+      }
+    }))
+    .pipe(gulp.dest("./tmp"));
+});
 
 gulp.task('amphtml:validate', () => {
   return gulp.src('dist/*.html')
@@ -52,7 +67,7 @@ gulp.task('clean', () => {
 
 // Clean out the dist folder
 gulp.task('clean_tmp', () => {
-  return gulp.src('./dist/tmp', {
+  return gulp.src('tmp/html', {
     read: false,
     force: true
   })
@@ -77,13 +92,13 @@ gulp.task('handlebars', function () {
     .pipe(handlebars(templateData, options))
     .pipe(replace('[[', '{{'))
     .pipe(replace(']]', '}}'))
-    .pipe(gulp.dest('./dist/tmp'));
+    .pipe(gulp.dest('tmp/html'));
 });
 
 gulp.task('markdown', function () {
-  return gulp.src('./dist/tmp/*.html')
-    .pipe(template('./content'))
-    .pipe(gulp.dest('./dist'));
+  return gulp.src('tmp/html/*.html')
+    .pipe(template('content'))
+    .pipe(gulp.dest('dist'));
 });
 
 // Copy files
@@ -119,7 +134,7 @@ gulp.task('sass', () => {
     .pipe(sass({
       errLogToConsole: true,
       outputStyle: 'compressed',
-      includePaths: []
+      includePaths: ['tmp/scss']
     }))
     .on('error', sass.logError)
     .pipe(autoprefixer(autoprefixerOptions))
@@ -130,7 +145,7 @@ gulp.task('sass', () => {
 
 // Minify images
 gulp.task('image', () => {
-  return gulp.src('src/assets/image/**')
+  return gulp.src(['src/assets/image/**', '!src/assets/image/logos/*.svg', '!src/assets/image/lang/*.svg', 'tmp/image/sprite.svg'])
     .pipe(image())
     .pipe(gulp.dest('dist/assets/image'));
 });
@@ -168,7 +183,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('watch_images', function () {
-  gulp.watch('src/assets/image/*.*', ['build'])
+  gulp.watch('src/assets/image/**', ['build'])
 });
 
 // Build task
@@ -178,7 +193,7 @@ gulp.task('build_without_images', (callback) => {
 
 // Build task
 gulp.task('build', (callback) => {
-  runSequence('clean', 'handlebars', 'markdown', 'clean_tmp', 'copy', 'image', 'sass', 'cachebuster', callback) //, 'critical'
+  runSequence('clean', 'handlebars', 'markdown', 'clean_tmp', 'copy', 'svg_sprite', 'image', 'sass', 'cachebuster', callback) //, 'critical'
 });
 
 // Default task

@@ -12,16 +12,16 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 
 
 <p class="image-line">
-![Ruby](assets/image/logos/ruby.svg "Ruby")
-![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
-![Haml](assets/image/logos/haml.svg "Haml")
-![jQuery](assets/image/logos/jquery.svg "jQuery")
-![Bootstrap 4](assets/image/logos/bootstrap.svg "Bootstrap 4")
-![Sass](assets/image/logos/sass.svg "Sass")
-![MySql](assets/image/logos/mysql.svg "MySql")
-![Sipgate](assets/image/logos/sipgate.svg "Sipgate")
-![Google Maps](assets/image/logos/google_maps.svg "Google Maps")
-![Heroku](assets/image/logos/heroku.svg "Heroku")
+<i class="icon ruby"></i>
+<i class="icon rails"></i>
+<i class="icon haml"></i>
+<i class="icon jquery"></i>
+<i class="icon bootstrap"></i>
+<i class="icon sass"></i>
+<i class="icon mysql"></i>
+<i class="icon sipgate"></i>
+<i class="icon google_maps"></i>
+<i class="icon heroku"></i>
 </p>
 
 ---
@@ -40,18 +40,18 @@ Zum Projekt Start Konzeption sowie Architektur und im weiteren Verlauf das Proje
 |__Dienste__|Contentful, Google Maps API, Mailchimp|
 
 <p class="image-line">
-![Ruby](assets/image/logos/ruby.svg "Ruby")
-![Angular 4](assets/image/logos/angular.svg "Angular 4")
-![Redux](assets/image/logos/redux.svg "Redux")
-![WebPack](assets/image/logos/webpack.svg "WebPack")
-![TypeScript](assets/image/logos/typescript.svg "TypeScript")
-![Sass](assets/image/logos/sass.svg "Sass")
-![Elasticsearch](assets/image/logos/elastic.svg "Elasticsearch")
-![PostgreSQL](assets/image/logos/postgresql.svg "PostgreSQL")
-![Redis](assets/image/logos/redis.svg "Redis")
-![Google Maps](assets/image/logos/google_maps.svg "Google Maps")
-![Contentful](assets/image/logos/contentful.svg "Contentful")
-![Docker](assets/image/logos/docker.svg "Docker")
+<i class="icon ruby"></i>
+<i class="icon angular"></i>
+<i class="icon redux"></i>
+<i class="icon webpack"></i>
+<i class="icon typescript"></i>
+<i class="icon sass"></i>
+<i class="icon elastic"></i>
+<i class="icon postgresql"></i>
+<i class="icon redis"></i>
+<i class="icon google_maps"></i>
+<i class="icon contentful"></i>
+<i class="icon docker"></i>
 </p>
 
 ---
@@ -59,7 +59,7 @@ Zum Projekt Start Konzeption sowie Architektur und im weiteren Verlauf das Proje
 ### XING
 
 #### Frontent Architektur: Entwicklung eines Responsive-Grids für die XING Plattform
-Entwicklung eines Responsive-Grids für die XING Plattform (2015 Mär - Dez)
+Konzeption & Entwicklung eines Responsive-Grids für die XING Plattform. Unterstützung der Produktteams bei dessen Einbau. (2015 Mär - Dez)
 
 |   |   |
 |---|---|
@@ -69,11 +69,11 @@ Entwicklung eines Responsive-Grids für die XING Plattform (2015 Mär - Dez)
 |__Testing__|Galen Framework (Responsive Tests)|
 
 <p class="image-line">
-![Ruby](assets/image/logos/ruby.svg "Ruby")
-![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
-![JavaScript](assets/image/logos/javascript.svg "JavaScript")
-![Sass](assets/image/logos/sass.svg "Sass")
-![Galen Framework](assets/image/logos/galen.svg "Galen Framework")
+<i class="icon ruby"></i>
+<i class="icon rails"></i>
+<i class="icon javascript"></i>
+<i class="icon sass"></i>
+<i class="icon galen"></i>
 </p>
 
 ---
@@ -91,11 +91,11 @@ Frontend Unterstützung (2015 Jan - Mär)
 |__Testing__|QUnit|
 
 <p class="image-line">
-![Ruby](assets/image/logos/ruby.svg "Ruby")
-![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
-![JavaScript](assets/image/logos/javascript.svg "JavaScript")
-![Sass](assets/image/logos/sass.svg "Sass")
-![QUnit](assets/image/logos/qunit.svg "QUnit")
+<i class="icon ruby"></i>
+<i class="icon rails"></i>
+<i class="icon javascript"></i>
+<i class="icon sass"></i>
+<i class="icon qunit"></i>
 </p>
 
 ---
@@ -113,13 +113,13 @@ Entwicklung der Angular App FutureMe (2014 Apr - 2015)
 |__Mobile App__|Cordova|
 
 <p class="image-line">
-![Angular](assets/image/logos/angular.svg "Angular")
-![Gulp](assets/image/logos/gulp.svg "Gulp")
-![Grunt](assets/image/logos/grunt.svg "Grunt")
-![jQuery](assets/image/logos/jquery.svg "jQuery")
-![Sass](assets/image/logos/sass.svg "Sass")
-![Cordova](assets/image/logos/cordova.svg "Cordova")
-![Google Maps](assets/image/logos/google_maps.svg "Google Maps")
+<i class="icon angular"></i>
+<i class="icon gulp"></i>
+<i class="icon grunt"></i>
+<i class="icon jquery"></i>
+<i class="icon sass"></i>
+<i class="icon cordova"></i>
+<i class="icon google_maps"></i>
 </p>
 
 ---
@@ -137,14 +137,14 @@ Technische Konzeption und Entwicklung von Frontend und CMS (2013-2014)
 |__Deployment__|Capistrano|
 
 <p class="image-line">
-![Ruby](assets/image/logos/ruby.svg "Ruby")
-![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
-![Haml](assets/image/logos/haml.svg "Haml")
-![jQuery](assets/image/logos/jquery.svg "jQuery")
-![Sass](assets/image/logos/sass.svg "Sass")
-![PostgreSQL](assets/image/logos/postgresql.svg "PostgreSQL")
-![Capistrano](assets/image/logos/capistrano.svg "Capistrano")
-![Debian](assets/image/logos/debian.svg "Debian")
+<i class="icon ruby"></i>
+<i class="icon rails"></i>
+<i class="icon haml"></i>
+<i class="icon jquery"></i>
+<i class="icon sass"></i>
+<i class="icon postgresql"></i>
+<i class="icon capistrano"></i>
+<i class="icon debian"></i>
 </p>
 
 ---
@@ -164,13 +164,13 @@ Videotranscoding mit FFMPEG und AVCONV
 
 
 <p class="image-line">
-![Ruby](assets/image/logos/ruby.svg "Ruby")
-![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
-![jQuery](assets/image/logos/jquery.svg "jQuery")
-![Bootstrap 4](assets/image/logos/bootstrap.svg "Bootstrap 4")
-![less](assets/image/logos/less.svg "less")
-![PostgreSQL](assets/image/logos/postgresql.svg "PostgreSQL")
-![FFMpeg](assets/image/logos/ffmpeg.svg "FFMpeg")
+<i class="icon ruby"></i>
+<i class="icon rails"></i>
+<i class="icon jquery"></i>
+<i class="icon bootstrap"></i>
+<i class="icon less"></i>
+<i class="icon postgresql"></i>
+<i class="icon ffmpeg"></i>
 </p>
 
 ---
@@ -188,17 +188,17 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 |__Dienste__|SipGate SMS-Versand, Google Maps API, HireAndFire|
 
 <p class="image-line">
-![Ruby](assets/image/logos/ruby.svg "Ruby")
-![Ruby on Rails](assets/image/logos/rails.svg "Ruby on Rails")
-![Haml](assets/image/logos/haml.svg "Haml")
-![jQuery](assets/image/logos/jquery.svg "jQuery")
-![CoffeeScript](assets/image/logos/coffeescript.svg "CoffeeScript")
-![Bootstrap](assets/image/logos/bootstrap.svg "Bootstrap")
-![less](assets/image/logos/less.svg "less")
-![MySql](assets/image/logos/mysql.svg "MySql")
-![Sipgate](assets/image/logos/sipgate.svg "Sipgate")
-![Google Maps](assets/image/logos/google_maps.svg "Google Maps")
-![Heroku](assets/image/logos/heroku.svg "Heroku")
+<i class="icon ruby"></i>
+<i class="icon rails"></i>
+<i class="icon haml"></i>
+<i class="icon jquery"></i>
+<i class="icon coffeescript"></i>
+<i class="icon bootstrap"></i>
+<i class="icon less"></i>
+<i class="icon mysql"></i>
+<i class="icon sipgate"></i>
+<i class="icon google_maps"></i>
+<i class="icon heroku"></i>
 </p>
 
 ---
@@ -215,10 +215,10 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 |__Hosting__|Ubuntu VServer|
 
 <p class="image-line">
-![PHP](assets/image/logos/php.svg "PHP")
-![MooTools](assets/image/logos/mootools.svg "MooTools")
-![MySql](assets/image/logos/mysql.svg "MySql")
-![Ubuntu](assets/image/logos/ubuntu.svg "Ubuntu")
+<i class="icon php"></i>
+<i class="icon mootools"></i>
+<i class="icon mysql"></i>
+<i class="icon ubuntu"></i>
 </p>
 
 ---
