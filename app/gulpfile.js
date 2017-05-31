@@ -22,7 +22,7 @@ const gulpAmpValidator = require('gulp-amphtml-validator');
 const svgSprite = require("gulp-svg-sprites");
 
 gulp.task('svg_sprite', function () {
-  return gulp.src(['./src/assets/image/lang/*.svg', './src/assets/image/logos/*.svg'])
+  return gulp.src(['src/assets/image/lang/*.svg', 'src/assets/image/logos/*.svg'])
     .pipe(svgSprite({
       cssFile: "scss/_sprite.scss",
       baseSize: 16,
@@ -32,7 +32,7 @@ gulp.task('svg_sprite', function () {
           sprite: "image/sprite.svg"
       }
     }))
-    .pipe(gulp.dest("./tmp"));
+    .pipe(gulp.dest("tmp"));
 });
 
 gulp.task('amphtml:validate', () => {
@@ -49,7 +49,7 @@ gulp.task('amphtml:validate', () => {
 
 // Clean out the dist folder
 gulp.task('clean_without_images', () => {
-  return gulp.src(['./dist/assets/css', './dist/*.*', './dist/CNAME'], {
+  return gulp.src(['dist/assets/css', 'dist/*.*', 'dist/CNAME'], {
     read: false,
     force: true
   })
@@ -58,16 +58,7 @@ gulp.task('clean_without_images', () => {
 
 // Clean out the dist folder
 gulp.task('clean', () => {
-  return gulp.src('./dist', {
-    read: false,
-    force: true
-  })
-  .pipe(clean());
-});
-
-// Clean out the dist folder
-gulp.task('clean_tmp', () => {
-  return gulp.src('tmp/html', {
+  return gulp.src(['dist', 'tmp'], {
     read: false,
     force: true
   })
@@ -75,7 +66,7 @@ gulp.task('clean_tmp', () => {
 });
 
 gulp.task('handlebars', function () {
-  var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
+  var articles = JSON.parse(fs.readFileSync('content/articles.json'));
   var templateData = { cells: articles };
   var options = {
     ignorePartials: false,
@@ -117,7 +108,7 @@ gulp.task('copy', () => {
 
 // SASS compile
 gulp.task('sass', () => {
-  var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
+  var articles = JSON.parse(fs.readFileSync('content/articles.json'));
   // Autoprefixer configuration
   var autoprefixerOptions = {
     browsers: [
@@ -188,12 +179,12 @@ gulp.task('watch_images', function () {
 
 // Build task
 gulp.task('build_without_images', (callback) => {
-  runSequence('clean_without_images', 'handlebars', 'markdown', 'clean_tmp', 'copy', 'sass', 'cachebuster', callback) //, 'critical'
+  runSequence('clean_without_images', 'handlebars', 'markdown', 'copy', 'sass', 'cachebuster', callback) //, 'critical'
 });
 
 // Build task
 gulp.task('build', (callback) => {
-  runSequence('clean', 'handlebars', 'markdown', 'clean_tmp', 'copy', 'svg_sprite', 'image', 'sass', 'cachebuster', callback) //, 'critical'
+  runSequence('clean', 'handlebars', 'markdown', 'copy', 'svg_sprite', 'image', 'sass', 'cachebuster', callback) //, 'critical'
 });
 
 // Default task
