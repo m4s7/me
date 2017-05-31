@@ -19,7 +19,6 @@ const handlebars = require('gulp-compile-handlebars');
 const replace = require('gulp-replace');
 const fs = require('fs');
 const gulpAmpValidator = require('gulp-amphtml-validator');
-var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
 
 gulp.task('amphtml:validate', () => {
   return gulp.src('dist/*.html')
@@ -61,6 +60,7 @@ gulp.task('clean_tmp', () => {
 });
 
 gulp.task('handlebars', function () {
+  var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
   var templateData = { cells: articles };
   var options = {
     ignorePartials: false,
@@ -102,6 +102,7 @@ gulp.task('copy', () => {
 
 // SASS compile
 gulp.task('sass', () => {
+  var articles = JSON.parse(fs.readFileSync('./content/articles.json'));
   // Autoprefixer configuration
   var autoprefixerOptions = {
     browsers: [

@@ -23,8 +23,10 @@ $break-lg-min: 1200px;
   .shadows { display: none; }
   aside section, table { font-size: 14px; }
   main {
-    padding-top: 14vw;
-    height: (50vw * ceil($cells / $cols-xs));
+    padding: 14vw 10vw 10vw;
+    min-height: calc(100% - 24vw);
+    height: (47vw * ceil($cells / $cols-xs));
+    // 6rows = height 282vw    margin-top: 14vw
     .hex-grid {
       transform: rotateX(0);
       .hex-offset {
@@ -37,11 +39,14 @@ $break-lg-min: 1200px;
 
 @media screen and (min-width: $break-sm-min) and (max-width: $break-sm-max) {
   @include hexagon-grid($cols-sm, 2);
-  .title { font-size: 4.5vw; }
+  .title { font-size: 4vw; }
   aside section, table { font-size: 16px; }
   main {
-    margin-top: -25vw;
-    height: (37vw * ceil($cells / $cols-sm));
+    padding: 0 15vw 10vw;
+    margin-top: -16vw;
+    min-height: calc(100% + 6vw);
+    height: (31vw * ceil($cells / $cols-sm));
+    // 4rows = height 148vw    margin-top: -25vw
   }
 }
 
@@ -56,8 +61,11 @@ $break-lg-min: 1200px;
     section, table { font-size: 16px; }
   }
   main {
-    margin-top: -6vw;
+    padding: 0 15vw;
+    margin-top: -5vw;
+    min-height: calc(100% + 5vw);
     height: (25vw * ceil($cells / $cols-md));
+    // 3rows = height 75vw    margin-top: -15vw
   }
 }
 
@@ -72,8 +80,11 @@ $break-lg-min: 1200px;
     section, table { font-size: 17px; }
   }
   main {
-    margin-top: -7vw;
-    height: (15vw * ceil($cells / $cols-lg));
+    padding: 0 15vw;
+    // margin-top: -12vw;
+    min-height: calc(100%);
+    height: (19vw * ceil($cells / $cols-lg));
+    // 3rows = height 48vw    margin-top: -12vw
   }
 }
 
