@@ -18,7 +18,7 @@
 |__Fremdsprachen__|Englisch (gut in Wort und Schrift)|
 
 
-Interessen: Machine Learning, FinTech, Blockchain
+Interessen: Geschäftprozesse digital abbilden, Machine Learning, FinTech, Blockchain
 
 
 

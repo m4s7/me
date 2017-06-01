@@ -7,14 +7,18 @@
 
 
 $cells: @@cell_count@@; // Is inserted by gulp
-$space-xs: 15vw;
-$space-sm: 10vw;
-$space-md: 5vw;
-$space-lg: 5vw;
 $cols-xs: 2;
 $cols-sm: 3;
 $cols-md: 4;
 $cols-lg: 5;
+$space-xs: 25vw / $cols-xs;
+$space-sm: 25vw / $cols-sm;
+$space-md: 25vw / $cols-md;
+$space-lg: 25vw / $cols-lg;
+$height-xs: (100vw / $cols-xs * ceil($cells / $cols-xs));
+$height-sm: (100vw / $cols-sm * ceil($cells / $cols-sm));
+$height-md: (100vw / $cols-md * ceil($cells / $cols-md));
+$height-lg: (100vw / $cols-lg * ceil($cells / $cols-lg));
 $break-xs-max: 599px;
 $break-sm-min: 600px;
 $break-sm-max: 899px;
@@ -27,9 +31,10 @@ $break-lg-min: 1200px;
   .title { font-size: 6.5vw; }
   .shadows { display: none; }
   aside section, table { font-size: 14px; }
+  html {min-height: (2 * $space-xs + $height-xs);}
   main {
-    padding: $space-xs 10vw;
-    height: (46vw * ceil($cells / $cols-xs));
+    padding: 0 10vw;
+    height: $height-xs;
     .hex-grid {
       transform: rotateX(0);
       .hex-offset {
@@ -44,10 +49,10 @@ $break-lg-min: 1200px;
   @include hexagon-grid($cols-sm, 2);
   .title { font-size: 4vw; }
   aside section, table { font-size: 16px; }
+  html {min-height: (2 * $space-sm + $height-sm);}
   main {
-    padding: 0 15vw $space-sm;
-    // margin-top: $space-sm * -1;
-    height: (29vw * ceil($cells / $cols-sm));
+    padding: 0 15vw;
+    height: $height-sm;
   }
 }
 
@@ -61,10 +66,10 @@ $break-lg-min: 1200px;
     input[type="radio"]:checked + article { right: 50%; }
     section, table { font-size: 16px; }
   }
+  html {min-height: (2 * $space-md + $height-md);}
   main {
     padding: 0 15vw;
-    // margin-top: $space-md * -1;
-    height: (25vw * ceil($cells / $cols-md));
+    height: $height-md;
   }
 }
 
@@ -78,10 +83,10 @@ $break-lg-min: 1200px;
     input[type="radio"]:checked + article { right: 60%; }
     section, table { font-size: 17px; }
   }
+  html {min-height: (2 * $space-lg + $height-lg);}
   main {
-    padding: 0 15vw 15vw;
-    // margin-top: $space-lg * -1;
-    height: (19vw * ceil($cells / $cols-lg));
+    padding: 0 20vw;
+    height: $height-lg;
   }
 }
 

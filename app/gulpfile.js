@@ -89,7 +89,7 @@ gulp.task('handlebars', function () {
 gulp.task('markdown', function () {
   return gulp.src('tmp/html/*.html')
     .pipe(template('content'))
-    .pipe(replace('a href="http', 'a target="_blank" href="http'))
+    .pipe(replace('<a href="http', '<a target="_blank" href="http'))
     .pipe(gulp.dest('dist'));
 });
 

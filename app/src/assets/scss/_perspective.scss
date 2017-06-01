@@ -2,7 +2,7 @@ main {
   position: relative;
   perspective: 700px;
   z-index: 10;
-  overflow: hidden;
+  // overflow: hidden;
   .hex-grid {
     transition: transform 1s cubic-bezier(0.430, 0.120, 0.685, 1.650); /* easeOutBack */
     transform: rotateX(35deg);
