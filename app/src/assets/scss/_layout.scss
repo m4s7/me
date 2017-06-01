@@ -42,9 +42,10 @@ input[type="radio"]:checked + article {
   }
 }
 
-input[type="radio"]:checked + .close-article-btn { display: none; }
+input[type="radio"]:checked + .close-article-btn { opacity: 0; pointer-events: none;}
 
 .close-article-btn {
+  pointer-events: auto;
   position: fixed;
   right: 15px;
   top: 12px;
@@ -52,7 +53,7 @@ input[type="radio"]:checked + .close-article-btn { display: none; }
   height: 30px;
   z-index: 1001;
   opacity: 0.5;
-  transition: right .4s ease;
+  transition: right .4s ease, opacity 1s ease;
   &:hover { opacity: 1; }
   &:before, &:after {
     position: absolute;

@@ -18,7 +18,7 @@
 |__Fremdsprachen__|Englisch (gut in Wort und Schrift)|
 
 
-Interessen: Maschine Learning, FinTech
+Interessen: Machine Learning, FinTech
 
 
 
