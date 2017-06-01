@@ -10,14 +10,14 @@
     "file": "locity_gmbh"
   },
   {
-    "ger": "Jobs",
-    "eng": "jobs",
-    "file": "jobs"
-  },
-  {
     "ger": "Neuste Projekte",
     "eng": "recent projects",
     "file": "projects"
+  },
+  {
+    "ger": "Jobs",
+    "eng": "jobs",
+    "file": "jobs"
   },
   {
     "ger": "Hobbys",

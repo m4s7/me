@@ -25,12 +25,13 @@ main {
 }
 
 .shadows {
+  z-index: 200;
   display: block;
-  position: absolute;
+  position: fixed;
   top: -25%;
   left: -15%;
-  height: 150%;
-  width: 130%;
+  bottom: -25%;
+  right: -15%;
   background-image: radial-gradient(closest-side, rgba(60, 60, 80, 0), rgba(60, 60, 80, 1));
   opacity: 0.5;
   transform: translateZ(10px);
