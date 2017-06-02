@@ -13,27 +13,35 @@
 ||Hamburg|
 |||
 |__Studium__|Wirtschaftsinformatik (FH-Wedel)|
-||Abschluss: Diplom Wirtschaftsinformatiker (FH)|
+||Abschluss: Diplom Wirtschaftsinformatiker|
 |||
 |__Fremdsprachen__|Englisch (gut in Wort und Schrift)|
 
+Nach meinem Diplom in Wirt.-Inf. gründete ich mit zwei Freunden das erste StartUp - TEAMSUNITED. Hier füllte ich die Position des CTOs aus und wuchs mit den entwicklungstechnischen sowie betriebswirtschaftlichen Aufgaben. Trotz vieler gewonnener Wettbewerbe und zahlreicher Investoren konnte die erforderliche Marktdurchdringung nicht erreicht werden und so wurde TEAMSUNITED 2012 eingestellt. 
+Seitdem arbeite ich als freiberuflicher Full-Stack Web-Entwickler für verschiedene StartUps und Agenturen.
+Im Jahr 2013 gründete ich die Locity UG als Entwicklungs- und Beteiligungsgesellschaft und mit Aufnahme eines zweiten Gesellschafters wurde die Locity UG im Mai 2017 zur <label class="link" for="locity_gmbh">Locity GmbH</label>. 
+<br><br>
 
-Interessen: Geschäftprozesse digital abbilden, Machine Learning, FinTech, Blockchain
+__Themen die mich besonders interessieren:__
+- Machine Learning
+- FinTech
+- Blockchain
+- Website Performance
 
+<br>
 
+<label class="link center" for="contact">>> _Hier erreichen Sie mich_ <<</label>
 
-Atom vim sublime
-Website performance
+<br>
 
-
-
+Apps die bei mir täglich laufen ;-)
 <p class="image-line">
-<i class="icon atom"></i>
-<i class="icon sublime"></i>
-<i class="icon neovim"></i>
-<i class="icon balsamiq"></i>
-<i class="icon sketch"></i>
-<i class="icon gimp"></i>
-<i class="icon git"></i>
-<i class="icon github"></i>
+<i class="icon sublime" title="Sublime"></i>
+<i class="icon neovim" title="Neovim"></i>
+<i class="icon balsamiq" title="Balsamiq"></i>
+<i class="icon sketch" title="Sketch"></i>
+<i class="icon gimp" title="Gimp"></i>
+<i class="icon git" title="Git"></i>
+<i class="icon github" title="GitHub"></i>
+<i class="icon docker" title="Docker"></i>
 </p>
