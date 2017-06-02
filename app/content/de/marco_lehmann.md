@@ -3,19 +3,13 @@
 |---|---|
 |"Full-Stack" Web-Entwickler aus Hamburg|<i class="icon hamburg"></i>|
 
-
 |||
 |---|---|
-|__Adresse__|Neusurenland 160|
-||22159 Hamburg|
-|||
-|__Geboren__|14.08.1981|
+|__Baujahr__|1981|
 ||Hamburg|
 |||
-|__Studium__|Wirtschaftsinformatik (FH-Wedel)|
-||Abschluss: Diplom Wirtschaftsinformatiker|
-|||
-|__Fremdsprachen__|Englisch (gut in Wort und Schrift)|
+|__Studium__|Wirtschaftsinformatik an der FH-Wedel|
+||mit Abschluss Diplom|
 
 Nach meinem Diplom in Wirt.-Inf. gründete ich mit zwei Freunden das erste StartUp - TEAMSUNITED. Hier füllte ich die Position des CTOs aus und wuchs mit den entwicklungstechnischen sowie betriebswirtschaftlichen Aufgaben. Trotz vieler gewonnener Wettbewerbe und zahlreicher Investoren konnte die erforderliche Marktdurchdringung nicht erreicht werden und so wurde TEAMSUNITED 2012 eingestellt. 
 Seitdem arbeite ich als freiberuflicher Full-Stack Web-Entwickler für verschiedene StartUps und Agenturen.
