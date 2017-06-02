@@ -117,10 +117,15 @@ article {
       max-height: 50px;
     }
   }
-  a {
+  a, label.link {
     color: #333;
     text-decoration: none;
     &:hover { color: #4671D5; }
+  }
+  .center {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
   }
   .page {
     // display: none;
