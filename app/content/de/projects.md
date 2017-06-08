@@ -12,16 +12,16 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 
 
 <p class="image-line">
-<i class="icon ruby"></i>
-<i class="icon rails"></i>
-<i class="icon haml"></i>
-<i class="icon jquery"></i>
-<i class="icon bootstrap"></i>
-<i class="icon sass"></i>
-<i class="icon mysql"></i>
-<i class="icon sipgate"></i>
-<i class="icon google_maps"></i>
-<i class="icon heroku"></i>
+<i class="icon ruby" title="Ruby" title="Ruby"></i>
+<i class="icon rails" title="Rails"></i>
+<i class="icon haml" title="Haml"></i>
+<i class="icon jquery" title="jQuery"></i>
+<i class="icon bootstrap" title="Bootstrap"></i>
+<i class="icon sass" title="SASS"></i>
+<i class="icon mysql" title="MySQL"></i>
+<i class="icon sipgate" title="SipGate"></i>
+<i class="icon google_maps" title="Google Maps"></i>
+<i class="icon heroku" title="Heroku"></i>
 </p>
 
 ---
@@ -40,18 +40,18 @@ Zum Projekt Start Konzeption sowie Architektur und im weiteren Verlauf das Proje
 |__Dienste__|Contentful, Google Maps API, Mailchimp|
 
 <p class="image-line">
-<i class="icon ruby"></i>
-<i class="icon angular"></i>
-<i class="icon redux"></i>
-<i class="icon webpack"></i>
-<i class="icon typescript"></i>
-<i class="icon sass"></i>
-<i class="icon elastic"></i>
-<i class="icon postgresql"></i>
-<i class="icon redis"></i>
-<i class="icon google_maps"></i>
-<i class="icon contentful"></i>
-<i class="icon docker"></i>
+<i class="icon ruby" title="Ruby"></i>
+<i class="icon angular" title="Angular"></i>
+<i class="icon redux" title="Redux"></i>
+<i class="icon webpack" title="Webpack"></i>
+<i class="icon typescript" title="TypeScript"></i>
+<i class="icon sass" title="SASS"></i>
+<i class="icon heroku" title="Elasticsearch"></i>
+<i class="icon postgresql" title="PostgreSQL"></i>
+<i class="icon redis" title="Redis"></i>
+<i class="icon google_maps" title="Google Maps"></i>
+<i class="icon contentful" title="Contentful"></i>
+<i class="icon docker" title="Docker"></i>
 </p>
 
 ---
@@ -69,11 +69,11 @@ Konzeption & Entwicklung eines Responsive-Grids für die XING Plattform. Unterst
 |__Testing__|Galen Framework (Responsive Tests)|
 
 <p class="image-line">
-<i class="icon ruby"></i>
-<i class="icon rails"></i>
-<i class="icon javascript"></i>
-<i class="icon sass"></i>
-<i class="icon galen"></i>
+<i class="icon ruby" title="Ruby"></i>
+<i class="icon rails" title="Rails"></i>
+<i class="icon javascript" title="JavaScript"></i>
+<i class="icon sass" title="SASS"></i>
+<i class="icon galen" title="Galen Framework"></i>
 </p>
 
 ---
@@ -91,11 +91,11 @@ Frontend Unterstützung (2015 Jan - Mär)
 |__Testing__|QUnit|
 
 <p class="image-line">
-<i class="icon ruby"></i>
-<i class="icon rails"></i>
-<i class="icon javascript"></i>
-<i class="icon sass"></i>
-<i class="icon qunit"></i>
+<i class="icon ruby" title="Ruby"></i>
+<i class="icon rails" title="Rails"></i>
+<i class="icon javascript" title="JavaScript"></i>
+<i class="icon sass" title="SASS"></i>
+<i class="icon qunit" title="QUnit"></i>
 </p>
 
 ---
@@ -113,13 +113,13 @@ Entwicklung der Angular App FutureMe (2014 Apr - 2015)
 |__Mobile App__|Cordova|
 
 <p class="image-line">
-<i class="icon angular"></i>
-<i class="icon gulp"></i>
-<i class="icon grunt"></i>
-<i class="icon jquery"></i>
-<i class="icon sass"></i>
-<i class="icon cordova"></i>
-<i class="icon google_maps"></i>
+<i class="icon angular" title="Angular"></i>
+<i class="icon gulp" title="Gulp"></i>
+<i class="icon grunt" title="Grunt"></i>
+<i class="icon jquery" title="jQuery"></i>
+<i class="icon sass" title="SASS"></i>
+<i class="icon cordova" title="Cordova"></i>
+<i class="icon google_maps" title="Google Maps"></i>
 </p>
 
 ---
@@ -137,14 +137,14 @@ Technische Konzeption und Entwicklung von Frontend und CMS (2013-2014)
 |__Deployment__|Capistrano|
 
 <p class="image-line">
-<i class="icon ruby"></i>
-<i class="icon rails"></i>
-<i class="icon haml"></i>
-<i class="icon jquery"></i>
-<i class="icon sass"></i>
-<i class="icon postgresql"></i>
-<i class="icon capistrano"></i>
-<i class="icon debian"></i>
+<i class="icon ruby" title="Ruby"></i>
+<i class="icon rails" title="Rails"></i>
+<i class="icon haml" title="Haml"></i>
+<i class="icon jquery" title="jQuery"></i>
+<i class="icon sass" title="SASS"></i>
+<i class="icon postgresql" title="PostgreSQL"></i>
+<i class="icon capistrano" title="Capistrano"></i>
+<i class="icon debian" title="Debian"></i>
 </p>
 
 ---
@@ -164,13 +164,13 @@ Videotranscoding mit FFMPEG und AVCONV
 
 
 <p class="image-line">
-<i class="icon ruby"></i>
-<i class="icon rails"></i>
-<i class="icon jquery"></i>
-<i class="icon bootstrap"></i>
-<i class="icon less"></i>
-<i class="icon postgresql"></i>
-<i class="icon ffmpeg"></i>
+<i class="icon ruby" title="Ruby"></i>
+<i class="icon rails" title="Rails"></i>
+<i class="icon jquery" title="jQuery"></i>
+<i class="icon bootstrap" title="Bootstrap"></i>
+<i class="icon less" title="Less"></i>
+<i class="icon postgresql" title="PostgreSQL"></i>
+<i class="icon ffmpeg" title="FFMPEG"></i>
 </p>
 
 ---
@@ -188,17 +188,17 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 |__Dienste__|SipGate SMS-Versand, Google Maps API, HireAndFire|
 
 <p class="image-line">
-<i class="icon ruby"></i>
-<i class="icon rails"></i>
-<i class="icon haml"></i>
-<i class="icon jquery"></i>
-<i class="icon coffeescript"></i>
-<i class="icon bootstrap"></i>
-<i class="icon less"></i>
-<i class="icon mysql"></i>
-<i class="icon sipgate"></i>
-<i class="icon google_maps"></i>
-<i class="icon heroku"></i>
+<i class="icon ruby" title="Ruby"></i>
+<i class="icon rails" title="Rails"></i>
+<i class="icon haml" title="Haml"></i>
+<i class="icon jquery" title="jQuery"></i>
+<i class="icon coffeescript" title="CoffeeScript"></i>
+<i class="icon bootstrap" title="Bootstrap"></i>
+<i class="icon less" title="Less"></i>
+<i class="icon mysql" title="MySQL"></i>
+<i class="icon sipgate" title="SipGate"></i>
+<i class="icon google_maps" title="Google Maps"></i>
+<i class="icon heroku" title="Heroku"></i>
 </p>
 
 ---
@@ -215,10 +215,10 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 |__Hosting__|Ubuntu VServer|
 
 <p class="image-line">
-<i class="icon php"></i>
-<i class="icon mootools"></i>
-<i class="icon mysql"></i>
-<i class="icon ubuntu"></i>
+<i class="icon php" title="PHP"></i>
+<i class="icon mootools" title="MooTools"></i>
+<i class="icon mysql" title="MySQL"></i>
+<i class="icon ubuntu" title="Ubuntu"></i>
 </p>
 
 ---
@@ -228,3 +228,11 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 |---|---|
 |__Frontend__|Bootstrap CSS Framework|
 |__Custom Themes__|Einbindung von Themes|
+
+<p class="image-line">
+<i class="icon php" title="PHP"></i>
+<i class="icon jquery" title="jQuery"></i>
+<i class="icon mysql" title="MySQL"></i>
+<i class="icon ubuntu" title="Ubuntu"></i>
+<i class="icon bootstrap" title="Bootstrap"></i>
+</p>
