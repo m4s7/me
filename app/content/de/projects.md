@@ -230,6 +230,7 @@ Applikation zur Vermittlung von Medizinstudenten an Praxen und Kliniken deutschl
 |__Custom Themes__|Einbindung von Themes|
 
 <p class="image-line">
+<i class="icon typo3" title="Typo3"></i>
 <i class="icon php" title="PHP"></i>
 <i class="icon jquery" title="jQuery"></i>
 <i class="icon mysql" title="MySQL"></i>
