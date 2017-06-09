@@ -33,7 +33,7 @@ Zum Projekt Start Konzeption sowie Architektur und im weiteren Verlauf das Proje
 |---|---|
 |__Backend__|Ruby, GarphQL|
 ||Event Sourcing System|
-|__Frontend__| JavaScript: TypeScript, Redux|
+|__Frontend__| JavaScript: Angular 4, TypeScript, Redux|
 || CSS: Custom|
 |__Datenbank__|Redis, PostgreSQL, Elasticsearch|
 |__Hosting__|AWS, Docker Cloud|
