@@ -58,7 +58,7 @@ Zum Projekt Start Konzeption sowie Architektur und im weiteren Verlauf das Proje
 
 ### XING
 
-#### Frontent Architektur: Entwicklung eines Responsive-Grids für die XING Plattform
+#### Frontend Architektur: Entwicklung eines Responsive-Grids für die XING Plattform
 Konzeption & Entwicklung eines Responsive-Grids für die XING Plattform. Unterstützung der Produktteams bei dessen Einbau. (2015 Mär - Dez)
 
 |   |   |
